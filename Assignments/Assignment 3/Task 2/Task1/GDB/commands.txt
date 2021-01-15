@@ -1,0 +1,39 @@
+1.1)
+1.1.1) 
+g++ -g -o marks marks.cpp
+./marks
+
+1.1.2) 
+gdb marks
+
+1.1.3) 
+command : run, 
+error : SIGFPE, Arithmetic expression
+line : 17
+
+command : info args
+args:
+	a = -2
+	b = 0
+
+1.1.4)
+command : list
+context : lines 12 - 18, around int improve(...)
+
+1.1.5)
+command : where
+interpretation : the error occured in improve (#0) which is called from within main (#1)
+
+1.1.6)
+command : up 
+
+1.1.7)
+command : list 
+context : lines 6 - 15 were displayed from main()
+
+1.1.8) 
+command : print highest
+highest = 0
+
+1.1.9)
+The crash occured due to a division by zero. Highest is set to 0. It is passed into improve as parameter b which is the denominator in the divison operation.

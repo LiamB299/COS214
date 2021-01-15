@@ -1,0 +1,27 @@
+1.2)
+1.2.1)
+	g++ -g -o capture capture.cpp
+	./capture
+	
+1.2.2)
+command : valgrind --leak-check=yes ./capture
+
+1.2.3)
+==16532==
+
+1.2.4)
+"Invalid write of size 4"
+->
+Invalid write of size 4
+==16532==    at 0x10916B: capture() (capture.cpp:4)
+==16532==    by 0x109180: main (capture.cpp:9)
+==16532==  Address 0x4db0ca8 is 0 bytes after a block of size 40 alloc'd
+
+1.2.5)
+Error occured in capture, which is called from main.
+
+1.2.6)
+The dynamic memory has not been deallocated (deleted). 4 bytes an integer at 10 integers for 40 bytes.
+
+1.2.7)
+Delete the dynamically allocated memory when the function goes out of scope, or pass it to the main to be deleted by the main when the program ends. I.e. something must delete it.
