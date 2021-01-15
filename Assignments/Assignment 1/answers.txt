@@ -1,0 +1,4 @@
+Question:
+1.4) Template design pattern
+2.4) Normal factory method with template, the relationship is 1 to 1 thus normal factory.
+4.3/4.4) See main in zip
