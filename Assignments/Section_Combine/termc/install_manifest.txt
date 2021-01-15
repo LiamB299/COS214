@@ -1,0 +1,3 @@
+/usr/local/lib/cmake/termcolor/termcolor-config.cmake
+/usr/local/include/termcolor/termcolor.hpp
+/usr/local/lib/cmake/termcolor/termcolor-targets.cmake
