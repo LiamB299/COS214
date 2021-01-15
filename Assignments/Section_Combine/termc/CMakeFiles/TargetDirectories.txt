@@ -1,6 +1,0 @@
-/home/liam/Documents/Second year/COS214/Assignments/Assignment 2/Assignment_2_secB/Section_B_3/termc/CMakeFiles/install/strip.dir
-/home/liam/Documents/Second year/COS214/Assignments/Assignment 2/Assignment_2_secB/Section_B_3/termc/CMakeFiles/install/local.dir
-/home/liam/Documents/Second year/COS214/Assignments/Assignment 2/Assignment_2_secB/Section_B_3/termc/CMakeFiles/install.dir
-/home/liam/Documents/Second year/COS214/Assignments/Assignment 2/Assignment_2_secB/Section_B_3/termc/CMakeFiles/list_install_components.dir
-/home/liam/Documents/Second year/COS214/Assignments/Assignment 2/Assignment_2_secB/Section_B_3/termc/CMakeFiles/rebuild_cache.dir
-/home/liam/Documents/Second year/COS214/Assignments/Assignment 2/Assignment_2_secB/Section_B_3/termc/CMakeFiles/edit_cache.dir
